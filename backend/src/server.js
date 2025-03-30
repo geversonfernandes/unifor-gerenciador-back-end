@@ -1,9 +1,7 @@
 import express from 'express'
 import connectDB from './config/db.js'
 import dotenv from 'dotenv'
-import eventRoutes from './routes/eventRoutes.js'
 import userRoutes from './routes/userRoutes.js'
-import invitedRoutes from './routes/invitedRoutes.js'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
 
