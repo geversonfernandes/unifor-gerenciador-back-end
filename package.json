@@ -1,0 +1,27 @@
+{
+  "name": "atividade_final_web_unifor",
+  "version": "1.0.0",
+  "description": "Repositório criado para a atividade final da disciplina de desenvolvimento para plataformas web pela universidade de fortaleza.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch backend/src/server.js",
+    "start": "node --watch backend/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.2"
+  }
+}
