@@ -12,7 +12,7 @@ connectDB()
 const app = express()
 const PORT = process.env.PORT || 5000
 const corsOptions = {
-  origin: 'https://link-app-front-end',
+  origin: 'https://unifor-gerenciador-front-end.vercel.app',
   credentials: true,
 };
 
